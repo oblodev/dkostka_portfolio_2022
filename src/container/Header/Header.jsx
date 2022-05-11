@@ -25,8 +25,8 @@ function Header() {
   return (
     <div className="app__header app__flex">
       <motion.div
-        whileInView={{ y: [70, 0], opacity: [0, 1] }}
-        transition={{ duration: 0.45 }}
+        whileInView={{ y: [90, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.9 }}
         className="app__header-info"
       >
         <div className="app__header-badge">

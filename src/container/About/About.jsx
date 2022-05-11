@@ -18,7 +18,13 @@ const About = () => {
 
   return (
     <div className="about">
-      <h2 className="head-text">If you’re wondering who I am…</h2>
+      <motion.div
+        whileInView={{ y: [80, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.8 }}
+      >
+        <h2 className="head-text">If you’re wondering who I am…</h2>
+      </motion.div>
+
       <p className="p-text about-text">
         I'm a self-taught Frontend developer with a passion for web design. I
         enjoy developing simple, clean and slick websites that provide real

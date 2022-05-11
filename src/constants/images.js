@@ -4,6 +4,7 @@ import python from "../assets/python.png";
 import build from "../assets/build.png";
 import freelancer from "../assets/freelancer.png";
 import books from "../assets/books.png";
+import email from "../assets/email.png";
 
 export default {
   python,
@@ -12,4 +13,5 @@ export default {
   build,
   freelancer,
   books,
+  email,
 };
