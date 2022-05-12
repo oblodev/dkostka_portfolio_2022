@@ -5,6 +5,10 @@
 .footer-text {
   width: 60%;
   margin-bottom: 4rem;
+
+  @media screen and (max-width: 450px) {
+    width: 90%;
+  }
 }
 
 .freelance-text {
@@ -39,6 +43,10 @@
     background-color: var(--secondary-color);
 
     transition: all 0.3s ease-in-out;
+
+    @media screen and (max-width: 450px) {
+      width: 90% !important;
+    }
 
     img {
       width: 40px;

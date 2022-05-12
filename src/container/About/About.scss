@@ -7,6 +7,10 @@
 .about-text {
   width: 75%;
   margin-top: 4rem;
+
+  @media screen and (max-width: 450px) {
+    width: 90% !important;
+  }
 }
 
 .app__about {
