@@ -43,8 +43,8 @@ function Header() {
           </div>
           <div className="info-cmp app__flex">
             <p className="header-info p-text">
-              I’m a self-taught front-end developer, based in Vienna, Austria
-              and i want to turn my passion into a career.
+              I’m a self-taught front-end developer, based in Vienna, Austria. I
+              want to turn my passion into a career.
             </p>
           </div>
         </div>

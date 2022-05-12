@@ -18,7 +18,7 @@
 .header-text-header {
   font-size: 1.1rem;
   text-transform: uppercase;
-  color: yellow;
+  color: var(--secondary-color);
   margin-bottom: 10px;
 }
 
@@ -91,7 +91,7 @@
     height: 100px;
     border-radius: 50%;
     margin-right: 3rem;
-    background: var(--primary-bg-color);
+    background: #fff;
 
     @media screen and (max-width: 450px) {
       margin-right: 1rem;

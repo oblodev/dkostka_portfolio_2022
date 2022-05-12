@@ -28,10 +28,6 @@ function Navbar() {
           ))}
         </ul>
 
-        <div className="app__switcher">
-          <h1>Switcher</h1>
-        </div>
-
         <div className="app__navbar-menu">
           <BiMenuAltRight onClick={() => setToggle(true)} />
 

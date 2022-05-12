@@ -1,6 +1,6 @@
 {
   "name": "frontend_portfolio",
-  "version": "0.8.7",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@sanity/client": "^3.3.0",

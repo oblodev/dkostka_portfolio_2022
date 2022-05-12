@@ -7,6 +7,7 @@ import { client } from "../../client";
 import { motion } from "framer-motion";
 
 function Footer() {
+  const year = new Date().getFullYear();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,7 +47,9 @@ function Footer() {
         whileInView={{ y: [40, 0], opacity: [0, 1] }}
         transition={{ duration: 0.7 }}
       >
-        <h2 className="head-text">Let's get in touch</h2>
+        <h2 className="head-text">
+          Let's get in <span>touch</span>
+        </h2>
       </motion.div>
       <p className="p-text footer-text">
         If you have a project that you want to get started, think you need my
@@ -102,8 +105,13 @@ function Footer() {
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
       )}
+      <div className="app__footer-copy">
+        <p className="copy-text">
+          Created by <span className="kostka">dkostka.dev</span> © {year}
+        </p>
+      </div>
     </>
   );
 }
 
-export default AppWrap(Footer, "footer");
+export default AppWrap(Footer, "contact");

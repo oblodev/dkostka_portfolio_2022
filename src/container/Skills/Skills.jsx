@@ -30,7 +30,9 @@ function Skills() {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.9 }}
       >
-        <h2 className="head-text">Skills</h2>
+        <h2 className="head-text">
+          <span>Skills</span>
+        </h2>
 
         <p className="skills-text p-text">
           These are the technolgies i have worked with:

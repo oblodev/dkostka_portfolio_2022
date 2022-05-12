@@ -1,7 +1,7 @@
 .app {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-color);
   font-family: var(--font-base);
-  color: #fff;
+  color: #000;
 }
 
 .app__whitebg {
@@ -56,7 +56,7 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
 
   span {
@@ -75,7 +75,7 @@
 .p-text {
   font-size: 1rem;
   text-align: left;
-  color: #fff;
+  color: #000;
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -86,7 +86,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: #fff;
+  color: #000;
   text-align: left;
 
   @media screen and (min-width: 2000px) {
