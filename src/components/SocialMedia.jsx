@@ -6,10 +6,14 @@ function SocialMedia() {
   return (
     <div className="app__social">
       <div>
-        <BsGithub />
+        <a href="https://github.com/oblodev">
+          <BsGithub />
+        </a>
       </div>
       <div>
-        <BsInstagram />
+        <a href="https://www.instagram.com">
+          <BsInstagram />
+        </a>
       </div>
     </div>
   );
