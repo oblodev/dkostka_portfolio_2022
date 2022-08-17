@@ -14,7 +14,7 @@ function Navbar() {
     >
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             dkostka<span className="logo__dot">.</span>
           </a>
         </div>
